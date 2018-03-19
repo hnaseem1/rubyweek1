@@ -16,7 +16,7 @@ response = gets.chomp
 
   elsif response == "run" && energy > 0
     counter += 5
-    energy -= 5
+    energy -= 2
     puts "Distance from home is #{counter}km and your energy is #{energy}"
 
   elsif energy <= 0
@@ -24,6 +24,7 @@ response = gets.chomp
 
   else
     puts "Distance from home is #{counter}km and your energy is #{energy}"
+
   end
 
 end
