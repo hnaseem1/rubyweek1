@@ -8,6 +8,6 @@ puts "A good tip would be $" + (55 * 10 / 100).to_s
 puts "I want to interpolate #{45628 * 7839}"
 
 #(10 < 20 && 30 < 20) || !(10 == 11)
-#(False || !False)
+#(False || !False) ----> for above
 #(TRUE)
 puts "it should be #{(10 < 20 && 30 < 20) || !(10 == 11)} "
